@@ -1,0 +1,5 @@
+---
+# Collect podcast up to this amount of days prior to today
+days_prior: 10
+# Directory to store podcast audio files 
+path: 'podcasts'
