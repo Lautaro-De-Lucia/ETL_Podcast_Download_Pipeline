@@ -2,7 +2,7 @@
 
 ## Description
 This is a straightforward ETL Process to download podcasts from [Google Podcasts](https://podcasts.google.com/). The project started as a basic Jupyter Notebook but has been further improved to be a fully automated [Airflow](https://airflow.apache.org/) pipeline that can run on a schedule. <br>
-The project reads podcast URLs from a [text file](podcast_urls.txt) and one-by-one scrapes the sites for both the audio file and metadata about the podcast. The metadata is stored to a local Sqlite database that gets updated every time the pipeline is run. The audio files are downloaded to a directory of choice. Additional configurations parameters are found in the [configuration](config.yaml) file.
+The project reads podcast URLs from a [text file](podcast_urls.txt) and one-by-one scrapes the sites for both the audio file and metadata about the podcast. The metadata is stored to a local SQLite database that gets updated every time the pipeline is run. The audio files are downloaded to a directory of choice. Additional configurations parameters are found in the [configuration](config.yaml) file.
 
 ## Running the Pipeline as a Jupyter Notebook
 
