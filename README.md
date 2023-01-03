@@ -10,8 +10,8 @@ The project reads podcast URLs from a [text file](podcast_urls.txt) and one-by-o
 - Step 2: Modify the [configuration](config.yam) file to set the destination directory for the audio files as well as how many days prior to the present should podcasts be scraped.
 - Step 3: Run the entire [Notebook](notebook_version.ipynb).
 
-![Podcast URL](imgs/podcasturl.png)
-![Podcast Samples](imgs/Podcast_Samples.png)
+![Podcast URL](imgs/podcastsurl.png)
+![Podcast Samples](imgs/Sample_Podcasts.png)
 
 ## Running the Pipeline using Apache Airflow
 
