@@ -10,12 +10,12 @@ The project reads podcast URLs from a [text file](podcast_urls.txt) and one-by-o
 - Step 2: Modify the [configuration](config.yam) file to set the destination directory for the audio files as well as how many days prior to the present should podcasts be scraped.
 - Step 3: Run the entire [Notebook](notebook_version.ipynb).
 
-![Podcast URL](imgs/podcasturl.jpg)
-![Podcast Samples](imgs/Podcast_Samples.jpg)
+![Podcast URL](imgs/podcasturl.png)
+![Podcast Samples](imgs/Podcast_Samples.png)
 
 ## Running the Pipeline using Apache Airflow
 
 Appended on this repo is the [Airflow DAG](DAG.py) file with everything set up to run the pipeline on a daily schedule. Use your preferred [setup](https://airflow.apache.org/docs/apache-airflow/stable/start.html) to run the pipeline. The configuration parameters are the same as for the Notebook.
 
-![Airflow](imgs/Airflow.jpg)
-![DAG](imgs/DAG.jpg)
+![Airflow](imgs/Airflow.png)
+![DAG](imgs/DAG.png)
