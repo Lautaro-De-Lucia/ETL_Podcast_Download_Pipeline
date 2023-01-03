@@ -18,4 +18,4 @@ The project reads podcast URLs from a [text file](podcast_urls.txt) and one-by-o
 Appended on this repo is the [Airflow DAG](DAG.py) file with everything set up to run the pipeline on a daily schedule. Use your preferred [setup](https://airflow.apache.org/docs/apache-airflow/stable/start.html) to run the pipeline. The configuration parameters are the same as for the Notebook.
 
 ![Airflow](imgs/Airflow.png)
-![DAG](imgs/DAG.png)
+![DAG](imgs/DAGv1.png)
